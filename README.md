@@ -1,2 +1,2 @@
 # entwurf-43
-Entwurf (Vorrat)
+Unverbindlicher Entwurf von Leon Oßendorf für die Marienheim Wettringen GmbH. Nicht öffentlich verlinkt, noindex.

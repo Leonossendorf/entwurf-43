@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Marienheim Wettringen – Wohnen, Tagesförderstätte, Arbeiten (Entwurf)</title>
+<meta name="description" content="Unverbindlicher Entwurf: Marienheim Wettringen, Einrichtung der Behindertenhilfe mitten in Wettringen.">
+<link rel="preload" href="fonts/atkinson-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-condensed-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css?v=1">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<script>try{var a=JSON.parse(localStorage.getItem('mh-a11y')||'{}');var c=document.documentElement.classList;if(a.size)c.add('fs-'+a.size);if(a.contrast)c.add('hc');if(a.spacing)c.add('ls');if(a.motion)c.add('nomotion');}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf" id="kopf">
+  <div class="kopf__in">
+    <a class="logo" href="./" aria-label="Marienheim Wettringen GmbH, zur Startseite">
+      <svg class="logo__zeichen" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <circle cx="36" cy="28" r="17" fill="var(--gelb)"/>
+        <path d="M30 6 A26 26 0 1 0 58 40" fill="none" stroke="var(--blau)" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+      <span class="logo__text"><span class="logo__name">Marienheim</span><span class="logo__ort">Wettringen GmbH</span></span>
+    </a>
+    <nav class="hauptnav" aria-label="Hauptmenü">
+      <ul>
+        <li><a href="#wohnen">Wohnen</a></li>
+        <li><a href="#arbeiten">Arbeiten</a></li>
+        <li><a href="#mitmachen">Mitmachen</a></li>
+        <li><a href="#aktuelles">Aktuelles</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div class="kopf__werkzeug">
+      <a class="ls-link" href="leichte-sprache.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h7a3 3 0 0 1 3 3v11a2 2 0 0 0-2-2H4zM20 5h-4a2 2 0 0 0-2 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Leichte Sprache</a>
+      <button class="a11y-knopf" type="button" aria-expanded="false" aria-controls="a11y-panel">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="6.6" r="1.7" fill="currentColor"/><path d="M6.5 9.4l5.5 1.2 5.5-1.2M12 10.6v3.6l-2.6 4.6M12 14.2l2.6 4.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Barrierefreiheit</span>
+      </button>
+      <a class="tel-knopf" href="tel:+4925578090" aria-label="Anrufen: 02557 809-0"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5l2.6-.6 1.6 4-2 1.5a12 12 0 0 0 6.8 6.8l1.5-2 4 1.6-.6 2.6a2 2 0 0 1-2 1.6A16.5 16.5 0 0 1 5 5.5a2 2 0 0 1 1.6-2z" fill="currentColor"/></svg><span>02557 809-0</span></a>
+    </div>
+  </div>
+
+  <div class="a11y-panel" id="a11y-panel" hidden>
+    <div class="a11y-panel__in">
+      <h2 class="a11y-panel__titel">Seite anpassen</h2>
+      <div class="a11y-gruppe" role="group" aria-label="Schriftgröße">
+        <span class="a11y-label">Schriftgröße</span>
+        <button type="button" data-size="" aria-pressed="true">Normal</button>
+        <button type="button" data-size="1" aria-pressed="false">Größer</button>
+        <button type="button" data-size="2" aria-pressed="false">Sehr groß</button>
+      </div>
+      <div class="a11y-gruppe">
+        <button type="button" class="a11y-schalter" data-toggle="contrast" aria-pressed="false">Starker Kontrast</button>
+        <button type="button" class="a11y-schalter" data-toggle="spacing" aria-pressed="false">Mehr Zeilenabstand</button>
+        <button type="button" class="a11y-schalter" data-toggle="motion" aria-pressed="false">Bewegungen aus</button>
+        <button type="button" class="a11y-schalter" id="vorlesen" aria-pressed="false">Seite vorlesen</button>
+      </div>
+      <p class="a11y-links"><a href="leichte-sprache.html">Diese Seite in Leichter Sprache</a> · <a href="barrierefreiheit.html">Erklärung zur Barrierefreiheit</a></p>
+      <button type="button" class="a11y-zu" aria-label="Einstellungen schließen">Schließen</button>
+    </div>
+  </div>
+</header>
+
+<aside class="stellen-aside" aria-label="Stellenangebote">
+<a class="stellen-band" href="#arbeiten">
+  <span class="stellen-band__punkt" aria-hidden="true"></span>
+  <span><strong>Wir suchen Verstärkung:</strong> Heilerziehungspfleger, Erzieher, Pflegefachkräfte (m/w/d) und Auszubildende.</span>
+  <span class="stellen-band__pfeil">Bewerben in 2 Minuten <span aria-hidden="true">→</span></span>
+</a>
+</aside>
+
+<main id="inhalt">
+
+<section class="hero" aria-labelledby="hero-titel">
+  <div class="hero__flaeche">
+    <div class="hero__text">
+      <h1 id="hero-titel" class="hero__titel">Wie schön, dass es&nbsp;dich&nbsp;gibt.</h1>
+      <p class="hero__herkunft">Motto unseres Patronatsfests im September 2026</p>
+      <p class="hero__lead">Im Marienheim leben erwachsene Menschen mit geistiger oder psychischer Behinderung mitten in Wettringen: in Wohngemeinschaften mit Einzelzimmern, begleitet rund um die Uhr, mit eigener Tagesförderstätte gleich nebenan.</p>
+
+      <div class="wege">
+        <p class="wege__vor" id="wege-vor">Ich suche …</p>
+        <ul class="wege__liste" aria-labelledby="wege-vor">
+          <li><a href="#wohnen" class="weg"><span class="weg__haupt">einen Platz für einen Angehörigen</span><span class="weg__neben">Wohnen, Kurzzeitplatz, Tagesförderstätte</span><span class="weg__pfeil" aria-hidden="true">→</span></a></li>
+          <li><a href="#arbeiten" class="weg"><span class="weg__haupt">eine Stelle oder Ausbildung</span><span class="weg__neben">Heilerziehungspflege, Pflege, Hauswirtschaft, FSJ</span><span class="weg__pfeil" aria-hidden="true">→</span></a></li>
+          <li><a href="#mitmachen" class="weg"><span class="weg__haupt">eine Möglichkeit zu helfen</span><span class="weg__neben">Ehrenamt und Spenden</span><span class="weg__pfeil" aria-hidden="true">→</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <figure class="hero__bild">
+    <div class="hero__kreis">
+      <img src="img/mensch-gelb.jpg" width="640" height="640" alt="Ein Bewohner im gelben Pullover lacht in die Kamera, vor ihm Nagellack und Pflegeutensilien.">
+    </div>
+    <svg class="hero__bogen" viewBox="0 0 400 400" aria-hidden="true" focusable="false"><path d="M150 12 A190 190 0 1 0 392 250" fill="none" stroke="var(--blau)" stroke-width="22" stroke-linecap="round" pathLength="1"/></svg>
+    <figcaption>Wellness &amp; Beauty: Wochenendangebot in der Tagesförderstätte</figcaption>
+  </figure>
+</section>
+
+<section class="wohnen" id="wohnen" aria-labelledby="wohnen-titel">
+  <div class="rahmen">
+    <div class="wohnen__kopf">
+      <h2 id="wohnen-titel" class="titel">Mitten in Wettringen zu&nbsp;Hause</h2>
+      <p class="einleitung">Die Wohnhäuser liegen im Ortskern, nahe der katholischen Kirche. Geschäfte, Arztpraxen, Schwimmbad und Bürgerhalle sind in der Nähe. Wer hier wohnt, bleibt oft lange: Beim Patronatsfest 2026 feierte ein Bewohner sein 45.&nbsp;Jahr im Marienheim.</p>
+    </div>
+
+    <ol class="angebote">
+      <li class="angebot zeige">
+        <span class="angebot__zahl">92</span>
+        <div class="angebot__text">
+          <h3>Wohnen in der besonderen Wohnform</h3>
+          <p>Plätze in Wohngemeinschaften, jede und jeder mit eigenem Zimmer. Fachkräfte begleiten rund um die Uhr, auch wenn im Alter der Pflegebedarf wächst.</p>
+        </div>
+        <a class="angebot__knopf" href="#kontakt" data-weiche="wohnen" data-wahl="Besondere Wohnform">Platz anfragen</a>
+      </li>
+      <li class="angebot zeige">
+        <span class="angebot__zahl">2</span>
+        <div class="angebot__text">
+          <h3>Kurzzeitbetreuung</h3>
+          <p>Zwei Plätze für eine begrenzte Zeit, mit derselben Begleitung wie im Wohnbereich.</p>
+        </div>
+        <a class="angebot__knopf" href="#kontakt" data-weiche="wohnen" data-wahl="Kurzzeitbetreuung">Platz anfragen</a>
+      </li>
+      <li class="angebot zeige">
+        <span class="angebot__zahl angebot__zahl--wort" aria-hidden="true">Am Tag</span>
+        <div class="angebot__text">
+          <h3>Tagesförderstätte</h3>
+          <p>Für Menschen, die nicht in einer Werkstatt arbeiten: Werken mit Holz und Ton, Musik und Bewegung, Snoezelraum, Sinnesgarten, Ausflüge und Feste.</p>
+        </div>
+        <a class="angebot__knopf" href="#kontakt" data-weiche="wohnen" data-wahl="Tagesförderstätte">Anfragen</a>
+      </li>
+      <li class="angebot zeige">
+        <span class="angebot__zahl angebot__zahl--wort" aria-hidden="true">Zuhause</span>
+        <div class="angebot__text">
+          <h3>Ambulant Betreutes Wohnen</h3>
+          <p>Begleitung in der eigenen Wohnung in Wettringen und Umgebung, allein, als Paar oder in einer Wohngemeinschaft.</p>
+        </div>
+        <a class="angebot__knopf" href="#kontakt" data-weiche="wohnen" data-wahl="Ambulant Betreutes Wohnen">Anfragen</a>
+      </li>
+    </ol>
+
+    <div class="weg-zum-platz zeige">
+      <h3 class="untertitel">So kommen Sie zu einem Platz</h3>
+      <ol class="schritte">
+        <li><span class="schritte__nr">1</span><div><strong>Sie melden sich.</strong> Über das Formular unten oder direkt bei Heimleiter Rüdiger Böckenfeld, <a href="tel:+492557809120">02557&nbsp;809-120</a>.</div></li>
+        <li><span class="schritte__nr">2</span><div><strong>Wir beraten Sie</strong> zum passenden Angebot und zum Antrag. Die Kosten trägt in der Regel der Träger der Eingliederungshilfe, in Westfalen der Landschaftsverband (LWL). Beim Antrag helfen wir.</div></li>
+        <li><span class="schritte__nr">3</span><div><strong>Gemeinsam planen wir</strong>, welche Begleitung gebraucht wird, und halten das in einer persönlichen Betreuungsplanung fest.</div></li>
+      </ol>
+    </div>
+
+    <div class="gelaende" aria-label="Bilder vom Gelände">
+      <figure class="gelaende__gross zeige"><img src="img/luftbild.jpg" width="892" height="310" loading="lazy" alt="Luftbild: Wohnhäuser rund um einen Garten mit kreisförmig angelegten Wegen."><figcaption>Das Gelände von oben</figcaption></figure>
+      <figure class="zeige"><img src="img/sinnesgarten.jpg" width="892" height="310" loading="lazy" alt="Gewundener Weg mit Bank zwischen Bäumen und Beeten."><figcaption>Im Garten</figcaption></figure>
+      <figure class="zeige"><img src="img/kapelle.jpg" width="892" height="310" loading="lazy" alt="Heller Andachtsraum mit Holzaltar, Kerze und einem Regenbogenbild an der Wand."><figcaption>Andachtsraum</figcaption></figure>
+      <figure class="zeige"><img src="img/gelaende-kirche.jpg" width="892" height="310" loading="lazy" alt="Rasenfläche mit Wohnhäusern und Pavillon, im Hintergrund der Kirchturm."><figcaption>Mit Blick zum Kirchturm</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="arbeiten" id="arbeiten" aria-labelledby="arbeiten-titel">
+  <div class="rahmen arbeiten__raster">
+    <div class="arbeiten__kopf">
+      <h2 id="arbeiten-titel" class="titel titel--hell">Arbeiten, wo Menschen zu&nbsp;Hause sind.</h2>
+      <p class="einleitung einleitung--hell">Wir begleiten Menschen in ihrem Alltag, in der Freizeit und auf dem Weg zu mehr Selbstständigkeit. Dafür suchen wir Kolleginnen und Kollegen, in Voll- oder Teilzeit.</p>
+      <figure class="arbeiten__bild zeige">
+        <img src="img/bingo.jpg" width="640" height="427" loading="lazy" alt="Ein Mitarbeiter im roten Shirt und ein Bewohner im Rollstuhl jubeln gemeinsam mit einer Bingo-Karte.">
+        <figcaption>Bingo-Nachmittag im August 2026</figcaption>
+      </figure>
+      <ul class="was-wir-bieten">
+        <li>Anleitung durch erfahrene Fachkräfte</li>
+        <li>Fortbildungen im eigenen Haus</li>
+        <li>Voll- oder Teilzeit, Ausbildung und Freiwilligendienst</li>
+      </ul>
+    </div>
+
+    <div class="stellen">
+      <p class="stellen__hinweis">Tippen Sie auf eine Stelle, die Bewerbung ist dann schon vorbereitet.</p>
+      <ul class="stellen__liste">
+        <li><a href="#kontakt" class="stelle" data-weiche="bewerbung" data-wahl="Heilerziehungspfleger (m/w/d)"><span class="stelle__art">Stelle</span><span class="stelle__name">Heilerziehungspfleger (m/w/d)</span><span class="stelle__info">Voll- oder Teilzeit · besondere Wohnform</span></a></li>
+        <li><a href="#kontakt" class="stelle" data-weiche="bewerbung" data-wahl="Erzieher (m/w/d)"><span class="stelle__art">Stelle</span><span class="stelle__name">Erzieher (m/w/d)</span><span class="stelle__info">Voll- oder Teilzeit · besondere Wohnform</span></a></li>
+        <li><a href="#kontakt" class="stelle" data-weiche="bewerbung" data-wahl="Altenpfleger oder Pflegefachkraft (m/w/d)"><span class="stelle__art">Stelle</span><span class="stelle__name">Altenpfleger oder Pflegefachkraft (m/w/d)</span><span class="stelle__info">Voll- oder Teilzeit · besondere Wohnform</span></a></li>
+        <li><a href="#kontakt" class="stelle stelle--aus" data-weiche="bewerbung" data-wahl="Ausbildung Heilerziehungspflege"><span class="stelle__art">Ausbildung</span><span class="stelle__name">Heilerziehungspfleger (m/w/d)</span><span class="stelle__info">3 Jahre praxisintegriert mit der Liebfrauenschule Coesfeld · angestellt ab 19,25 Stunden pro Woche</span></a></li>
+        <li><a href="#kontakt" class="stelle stelle--aus" data-weiche="bewerbung" data-wahl="Ausbildung Hauswirtschaft"><span class="stelle__art">Ausbildung</span><span class="stelle__name">Hauswirtschafter (m/w/d)</span><span class="stelle__info">Zentralküche, Reinigung und Zentralwäscherei · Vollzeit</span></a></li>
+        <li><a href="#kontakt" class="stelle stelle--frei" data-weiche="bewerbung" data-wahl="FSJ, Bundesfreiwilligendienst oder Praktikum"><span class="stelle__art">Einstieg</span><span class="stelle__name">FSJ, Bundesfreiwilligendienst, Praktikum</span><span class="stelle__info">ab 16 Jahren · beim Bundesfreiwilligendienst in jedem Alter</span></a></li>
+      </ul>
+      <p class="stellen__fuss">Fragen vorab? Rüdiger Böckenfeld, <a href="tel:+4925578090">02557&nbsp;809-0</a>. Lieber ausführlich mit Unterlagen: <a href="https://bewerbung.sozialjob24.de/#/stelle/c401d3a0-cec9-464c-9f11-5a39c66523ba" rel="noopener">Bewerbungsportal</a> oder <a href="mailto:jobs@marienheim-wettringen.de">jobs@marienheim-wettringen.de</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="aktuelles" id="aktuelles" aria-labelledby="aktuelles-titel">
+  <div class="rahmen">
+    <h2 id="aktuelles-titel" class="titel">Aus dem Marienheim</h2>
+    <div class="beitraege">
+      <article class="beitrag zeige">
+        <img src="img/bulli.jpg" width="640" height="480" loading="lazy" alt="Drei Bewohnerinnen und Bewohner im Rollstuhl und zwei Begleiter vor dem neuen blauen Kleinbus.">
+        <div class="beitrag__text">
+          <p class="beitrag__marke">Mobilität und Teilhabe</p>
+          <h3>Neuer „Bulli“ für das Marienheim</h3>
+          <p>Der barrierefreie Kleinbus mit Hebebühne bringt auch Menschen im Rollstuhl sicher zu Ausflügen, Arztbesuchen und Veranstaltungen. Gefördert hat ihn die Aktion Mensch.</p>
+          <details>
+            <summary>Weiterlesen</summary>
+            <p>„Der neue Bulli ist für uns weit mehr als nur ein Fortbewegungsmittel“, sagt Geschäftsführer Michael Niehues. „Er schenkt den uns anvertrauten Menschen Flexibilität und sorgt dafür, dass sie mitten im Leben stehen können. Ein herzlicher Dank gilt der Aktion Mensch, ohne deren Unterstützung dieses Projekt nicht realisierbar gewesen wäre.“</p>
+          </details>
+        </div>
+      </article>
+      <article class="beitrag zeige">
+        <img src="img/patronatsfest.jpg" width="640" height="539" loading="lazy" alt="Heimleiter Rüdiger Böckenfeld überreicht einer Bewohnerin im Rollstuhl einen Blumenstrauß.">
+        <div class="beitrag__text">
+          <p class="beitrag__marke">9. September 2026</p>
+          <h3>Ein schöner Ehrentag</h3>
+          <p>Zum Patronatsfest unter dem Motto „Wie schön, dass es dich gibt“ feierten Bewohnerinnen und Bewohner den Festgottesdienst und ehrten danach in der Bürgerhalle die Jubilare.</p>
+          <details>
+            <summary>Weiterlesen</summary>
+            <p>Ein ganz besonderes Jubiläum: Ein Bewohner lebt seit 45 Jahren im Marienheim und hat hier ein echtes Zuhause gefunden. Heimleiter Rüdiger Böckenfeld gratulierte allen Jubilaren und überreichte Blumensträuße.</p>
+          </details>
+        </div>
+      </article>
+      <article class="beitrag zeige">
+        <img src="img/wellness.jpg" width="640" height="427" loading="lazy" alt="Eine Mitarbeiterin flicht einer Bewohnerin im Rollstuhl die Haare.">
+        <div class="beitrag__text">
+          <p class="beitrag__marke">Tagesförderstätte</p>
+          <h3>Wellness &amp; Beauty</h3>
+          <p>Massagen, Maniküre und Make-up: Sieben Bewohnerinnen und Bewohner aus verschiedenen Bereichen ließen sich ein Wochenende lang verwöhnen.</p>
+          <details>
+            <summary>Weiterlesen</summary>
+            <p>In ruhiger und geschützter Atmosphäre ging es um die kleinen Dinge des Alltags, die sonst zu kurz kommen. Einfach mal fallen lassen, zusammen lachen und entspannen tut nachhaltig gut.</p>
+          </details>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="mitmachen" id="mitmachen" aria-labelledby="mitmachen-titel">
+  <div class="rahmen mitmachen__raster">
+    <figure class="mitmachen__bild zeige">
+      <img src="img/motto.jpg" width="640" height="473" loading="lazy" alt="Handgemaltes Plakat mit dem Satz „Wie schön, dass es dich gibt“ neben dem Altar.">
+      <figcaption>Das Plakat zum Patronatsfest 2026</figcaption>
+    </figure>
+    <div class="mitmachen__text">
+      <h2 id="mitmachen-titel" class="titel">Zeit schenken, Freude teilen</h2>
+      <div class="mitmachen__spalten">
+        <div class="zeige">
+          <h3 class="untertitel">Ehrenamt</h3>
+          <p>Spazieren gehen, Ausflüge begleiten, Gesellschaftsspiele, Gespräche, bei Festen mit anpacken: Ehrenamtliche bringen neue Kontakte in den Alltag der Bewohnerinnen und Bewohner. Jedes Alter ist willkommen. Zuerst nehmen wir uns Zeit für ein Gespräch, und Sie können in Ruhe hineinschnuppern.</p>
+          <p class="ansprech">Klaus Altehenger, Ehrenamtskoordinator<br><a href="tel:+492557809430">02557 809-430</a></p>
+          <a class="knopf" href="#kontakt" data-weiche="ehrenamt" data-wahl="Ehrenamt">Ich möchte mithelfen</a>
+        </div>
+        <div class="zeige">
+          <h3 class="untertitel">Spenden</h3>
+          <p>Den neuen Bulli mit Hebebühne hat die Aktion Mensch gefördert. Wer selbst etwas beitragen möchte, für einen Ausflug, ein Fest oder etwas Größeres: Sprechen Sie uns an, wir sagen Ihnen gern, wo Hilfe gerade gebraucht wird.</p>
+          <p class="platzhalter">Spendenkonto: im Entwurf nicht ausgefüllt</p>
+          <a class="knopf knopf--rand" href="#kontakt" data-weiche="ehrenamt" data-wahl="Spende">Ich möchte spenden</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="kontakt" id="kontakt" aria-labelledby="kontakt-titel">
+  <div class="rahmen kontakt__raster">
+    <div class="formular-box">
+      <h2 id="kontakt-titel" class="titel">Schreiben Sie uns</h2>
+      <p class="einleitung">Ein Rückweg genügt, Telefon oder E-Mail. Alles andere ist freiwillig.</p>
+
+      <form class="formular" id="formular" novalidate>
+        <fieldset class="weiche">
+          <legend>Worum geht es?</legend>
+          <div class="chips" role="radiogroup">
+            <label class="chip"><input type="radio" name="weiche" value="wohnen" checked><span>Wohnen und Plätze</span></label>
+            <label class="chip"><input type="radio" name="weiche" value="bewerbung"><span>Bewerbung</span></label>
+            <label class="chip"><input type="radio" name="weiche" value="ehrenamt"><span>Ehrenamt oder Spende</span></label>
+            <label class="chip"><input type="radio" name="weiche" value="anderes"><span>Etwas anderes</span></label>
+          </div>
+        </fieldset>
+
+        <div class="zweig" data-zweig="wohnen">
+          <fieldset>
+            <legend>Welches Angebot? <span class="opt">(Angabe optional)</span></legend>
+            <div class="chips">
+              <label class="chip"><input type="checkbox" name="angebot" value="Besondere Wohnform"><span>Wohnen</span></label>
+              <label class="chip"><input type="checkbox" name="angebot" value="Kurzzeitbetreuung"><span>Kurzzeitplatz</span></label>
+              <label class="chip"><input type="checkbox" name="angebot" value="Tagesförderstätte"><span>Tagesförderstätte</span></label>
+              <label class="chip"><input type="checkbox" name="angebot" value="Ambulant Betreutes Wohnen"><span>Ambulant Betreutes Wohnen</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Sie fragen für … <span class="opt">(Angabe optional)</span></legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="fuer" value="mich selbst"><span>mich selbst</span></label>
+              <label class="chip"><input type="radio" name="fuer" value="Angehörige"><span>Angehörige</span></label>
+              <label class="chip"><input type="radio" name="fuer" value="gesetzliche Betreuung"><span>als gesetzliche Betreuung</span></label>
+              <label class="chip"><input type="radio" name="fuer" value="Sozialdienst oder Behörde"><span>Sozialdienst oder Behörde</span></label>
+            </div>
+          </fieldset>
+          <p class="formular__hinweis">Bitte schreiben Sie keine Angaben zur Gesundheit ins Formular. Das besprechen wir persönlich.</p>
+        </div>
+
+        <div class="zweig" data-zweig="bewerbung" hidden>
+          <fieldset>
+            <legend>Welche Stelle? <span class="opt">(Angabe optional)</span></legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="stelle" value="Heilerziehungspfleger (m/w/d)"><span>Heilerziehungspflege</span></label>
+              <label class="chip"><input type="radio" name="stelle" value="Erzieher (m/w/d)"><span>Erzieher</span></label>
+              <label class="chip"><input type="radio" name="stelle" value="Altenpfleger oder Pflegefachkraft (m/w/d)"><span>Pflegefachkraft</span></label>
+              <label class="chip"><input type="radio" name="stelle" value="Ausbildung Heilerziehungspflege"><span>Ausbildung HEP</span></label>
+              <label class="chip"><input type="radio" name="stelle" value="Ausbildung Hauswirtschaft"><span>Ausbildung Hauswirtschaft</span></label>
+              <label class="chip"><input type="radio" name="stelle" value="FSJ, Bundesfreiwilligendienst oder Praktikum"><span>FSJ, BFD, Praktikum</span></label>
+              <label class="chip"><input type="radio" name="stelle" value="Initiativbewerbung"><span>Initiativ</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Wie viel möchten Sie arbeiten? <span class="opt">(Angabe optional)</span></legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="umfang" value="Vollzeit"><span>Vollzeit</span></label>
+              <label class="chip"><input type="radio" name="umfang" value="Teilzeit"><span>Teilzeit</span></label>
+              <label class="chip"><input type="radio" name="umfang" value="noch offen"><span>Weiß ich noch nicht</span></label>
+            </div>
+          </fieldset>
+          <div class="feld">
+            <label for="datei">Lebenslauf oder Zeugnis <span class="opt">(Angabe optional)</span></label>
+            <input type="file" id="datei" name="datei" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx">
+          </div>
+        </div>
+
+        <div class="zweig" data-zweig="ehrenamt" hidden>
+          <fieldset>
+            <legend>Was interessiert Sie? <span class="opt">(Angabe optional)</span></legend>
+            <div class="chips">
+              <label class="chip"><input type="checkbox" name="interesse" value="Ehrenamt"><span>Ehrenamt</span></label>
+              <label class="chip"><input type="checkbox" name="interesse" value="Ausflüge begleiten"><span>Ausflüge begleiten</span></label>
+              <label class="chip"><input type="checkbox" name="interesse" value="Spiele und Gespräche"><span>Spiele und Gespräche</span></label>
+              <label class="chip"><input type="checkbox" name="interesse" value="Feste"><span>Bei Festen helfen</span></label>
+              <label class="chip"><input type="checkbox" name="interesse" value="Spende"><span>Spende</span></label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="felder">
+          <div class="feld">
+            <label for="name">Name <span class="opt">(Angabe optional)</span></label>
+            <input type="text" id="name" name="name" autocomplete="name">
+          </div>
+          <div class="feld">
+            <label for="tel">Telefon</label>
+            <input type="tel" id="tel" name="tel" autocomplete="tel" inputmode="tel" aria-describedby="rueckweg-hinweis">
+          </div>
+          <div class="feld">
+            <label for="mail">E-Mail</label>
+            <input type="email" id="mail" name="mail" autocomplete="email" aria-describedby="rueckweg-hinweis">
+          </div>
+        </div>
+        <p class="formular__klein" id="rueckweg-hinweis">Telefon oder E-Mail reicht.</p>
+        <p class="formular__fehler" id="fehler" role="alert" hidden>Bitte geben Sie eine Telefonnummer oder eine E-Mail-Adresse an, damit wir antworten können.</p>
+
+        <div class="feld">
+          <label for="nachricht">Ihre Nachricht <span class="opt">(Angabe optional)</span></label>
+          <textarea id="nachricht" name="nachricht" rows="4"></textarea>
+        </div>
+
+        <p class="formular__klein">Mit dem Absenden verarbeiten wir Ihre Angaben nur für Ihre Anfrage, siehe <a href="datenschutz.html">Datenschutz</a>. Entwurf: Das Formular verschickt nichts.</p>
+        <button class="knopf knopf--gross" type="submit">Absenden</button>
+      </form>
+
+      <div class="danke" id="danke" hidden tabindex="-1">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="var(--gelb)"/><path d="M19 33l9 9 17-19" fill="none" stroke="var(--blau)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>Danke, das ist angekommen.</h3>
+        <p id="danke-text"></p>
+        <p class="danke__entwurf">Entwurf: Es wurde nichts versendet.</p>
+        <button type="button" class="knopf knopf--rand" id="nochmal">Neue Nachricht</button>
+      </div>
+    </div>
+
+    <div class="kontaktdaten">
+      <h3 class="untertitel">Marienheim Wettringen GmbH</h3>
+      <p>Unter den Linden 12<br>48493 Wettringen</p>
+      <p><a class="gross-link" href="tel:+4925578090">02557 809-0</a><br><a href="mailto:info@marienheim-wettringen.de">info@marienheim-wettringen.de</a></p>
+      <p><a href="https://www.openstreetmap.org/search?query=Unter%20den%20Linden%2012%2C%2048493%20Wettringen" rel="noopener">Anfahrt auf der Karte</a></p>
+      <h3 class="untertitel untertitel--klein">Ansprechpartner</h3>
+      <dl class="personen">
+        <div><dt>Michael Niehues</dt><dd>Geschäftsführer · über die Zentrale</dd></div>
+        <div><dt>Rüdiger Böckenfeld</dt><dd>Heimleiter, Wohnen und Bewerbungen · <a href="tel:+492557809120" class="nowrap">809-120</a></dd></div>
+        <div><dt>Klaus Altehenger</dt><dd>Tagesförderstätte und Ehrenamt · <a href="tel:+492557809430" class="nowrap">809-430</a></dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="fuss">
+  <div class="rahmen fuss__raster">
+    <div>
+      <p class="fuss__name">Marienheim Wettringen GmbH</p>
+      <p>Einrichtung der Behindertenhilfe. Alleinige Gesellschafterin ist die Katholische Kirchengemeinde St.&nbsp;Petronilla Wettringen. Angeschlossen dem Caritasverband für die Diözese Münster e.&nbsp;V.</p>
+    </div>
+    <ul class="fuss__links">
+      <li><a href="impressum.html">Impressum</a></li>
+      <li><a href="datenschutz.html">Datenschutz</a></li>
+      <li><a href="barrierefreiheit.html">Erklärung zur Barrierefreiheit</a></li>
+      <li><a href="leichte-sprache.html">Leichte Sprache</a></li>
+      <li><a href="https://marienheim-wettringen.interne-meldestelle.de/" rel="noopener">Hinweisgebersystem</a></li>
+    </ul>
+  </div>
+  <div class="rahmen fuss__entwurf">
+    <p>Unverbindlicher Entwurf von Leon Oßendorf, kein offizieller Auftritt der Marienheim Wettringen GmbH. Texte und Fotos: Marienheim Wettringen.</p>
+  </div>
+</footer>
+
+<nav class="handyleiste" aria-label="Schnellkontakt">
+  <a href="tel:+4925578090">Anrufen</a>
+  <a href="#kontakt">Schreiben</a>
+  <a href="#arbeiten">Bewerben</a>
+</nav>
+
+<script src="js/main.js?v=1" defer></script>
+</body>
+</html>
